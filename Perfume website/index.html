@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodMist | Perfume by Mood</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=
+  Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>MoodMist</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Collection</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Choose a scent, choose a feeling</h2>
+    <p>Luxury perfumes designed to match your mood.</p>
+    <button>Find Your Mood</button>
+  </div>
+</section>
+
+<section class="moods">
+  <h3>Select Your Mood</h3>
+  <div class="mood-buttons">
+    <button onclick="filterMood('all')">All</button>
+    <button onclick="filterMood('calm')">Calm 😌</button>
+    <button onclick="filterMood('romantic')">Romantic 💖</button>
+    <button onclick="filterMood('bold')">Bold 🔥</button>
+    <button onclick="filterMood('fresh')">Fresh 🍃</button>
+  </div>
+</section>
+
+<section class="products">
+  <div class="card" data-mood="calm">
+    <img src="image.jpg/calm-perfume.jpg" />
+    <h4>Velvet Calm</h4>
+    <span>Calm Mood</span>
+    <p>Soft floral notes with relaxing vibes.</p>
+    <button>Add to Bag</button>
+  </div>
+
+  <div class="card" data-mood="romantic">
+    <img src="image.jpg/romantic-perfume.jpg" />
+    <h4>Rose Desire</h4>
+    <span>Romantic Mood</span>
+    <p>Warm rose and vanilla blend.</p>
+    <button>Add to Bag</button>
+  </div>
+
+  <div class="card" data-mood="bold">
+    <img src="image.jpg/bold-perfume.jpg" />
+    <h4>Midnight Fire</h4>
+    <span>Bold Mood</span>
+    <p>Spicy woody fragrance for confidence.</p>
+    <button>Add to Bag</button>
+  </div>
+
+  <div class="card" data-mood="fresh">
+    <img src="image.jpg/fresh-perfume.jpg" />
+    <h4>Citrus Wave</h4>
+    <span>Fresh Mood</span>
+    <p>Fresh citrus with ocean breeze.</p>
+    <button>Add to Bag</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 MoodMist Perfumes. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+

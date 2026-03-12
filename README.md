@@ -16,3 +16,9 @@ A beautiful, responsive landing page designed for a premium perfume brand. This 
 
 ### 📈 Learning Outcome:
 Through this project, I mastered the art of creating professional layouts and handling image-heavy websites without compromising on speed.
+
+## 🛠️ How to Run
+1. Clone this repository.
+2. Open `index.html` in any web browser.
+3. Feel free to explore the code and share your feedback!
+

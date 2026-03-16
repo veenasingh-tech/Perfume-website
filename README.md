@@ -1,4 +1,4 @@
-🚀 Live Demo:
+🚀 Click here to view Live Demo:
 https://dancing-smakager-690c05.netlify.app/
 # ✨ Luxury Perfume Landing Page
 A beautiful, responsive landing page designed for a premium perfume brand. This project focuses on high-end UI/UX and smooth navigation.

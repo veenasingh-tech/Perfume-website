@@ -13,7 +13,7 @@ A beautiful, responsive landing page designed for a premium perfume brand. This 
 - **HTML5:** Semantic structure for better SEO.
 - **CSS3:** Custom styling with Flexbox and Hover effects.
 - **JavaScript:** For interactive elements and smooth scrolling.
-- ##Flexbox:## To ensure the layout stays aligned
+- **Flexbox:** To ensure the layout stays aligned
 
 ### 📈 Learning Outcome:
 Through this project, I mastered the art of creating professional layouts and handling image-heavy websites without compromising on speed.
